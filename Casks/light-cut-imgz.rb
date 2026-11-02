@@ -1,9 +1,9 @@
 cask "light-cut-imgz" do
   arch arm: "aarch64", intel: "x64"
 
-  version "1.0.1"
-  sha256 arm:   "dd9a6ecf4c36509d20fe9aaabd2f640c9c9153bd54471622c728eb358aa400c3",
-         intel: "2d68a0c872076e4da4488f7f550ff0a4e952fc9dcf48b4104d9f1eac5143f8d6"
+  version "1.0.2"
+  sha256 arm:   "6836bc8ef7009264445d62292ca4e7bc9f0a8596a01ec78e1934b00640bdecf6",
+         intel: "597eb054bb2bffcfb7b4dd7ddd89536f733d7f4f413bd7ffec92eaba4126f9fb"
 
   url "https://github.com/light-cut-imgz/light-cut-imgz/releases/download/v#{version}/LightCutImgz_#{arch}.app.tar.gz"
   name "LightCutImgz"
